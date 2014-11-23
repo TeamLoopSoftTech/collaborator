@@ -1,0 +1,25 @@
+
+.demo_container  {
+     width: 980px;
+     margin: 0 auto;
+ }
+
+
+
+#sticky_navigation_wrapper  {
+     width: 100%;
+    
+ }
+
+#sticky_navigation  {
+     width: 100%;
+    
+     background: url(trans-black-60.png);
+     -moz-box-shadow:  0 0 5px #999;
+     -webkit-box-shadow:  0 0 5px #999;
+     box-shadow:  0 0 5px #999;
+	 z-index:999999999999999;
+ }
+
+
+	

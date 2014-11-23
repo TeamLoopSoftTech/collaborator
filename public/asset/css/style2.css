@@ -1,0 +1,234 @@
+
+
+
+@charset "utf-8";
+/* CSS Document */
+
+#bg {
+    background:url('../images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover cover;
+    font-family:Arial, Helvetica, sans-serif;
+
+    color:#FFF;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    display:block;
+
+
+}
+
+#login{
+    width: 300px;
+
+    height: 270px;
+}
+.btn{
+    width: 95%;
+}
+.textox {
+    width: 95%;
+    height: 36px;
+    border: solid 2px #006;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 1px 2px 0px #9C9C9C;
+    background-color: #FFF;
+    outline: none;
+    color: #474747;
+}
+.textox:hover  {
+    border: 2px solid #060;
+}
+.textox:focus  {
+    border: solid 2px #060;
+    box-shadow: inset 0px 1px 2px 0px #9C9C9C;
+}
+.textox:active  {
+    border: solid 2px #0043EB;
+}
+#pic{
+    width: 100px;
+    height: 200px;
+}
+
+.ebtn{
+    width: 200px;
+    height: 200px;
+    float:left;
+    top: -123px;
+}
+#bdy{
+    border: 7px solid #666;
+    height: 400px;
+    width:320px;
+    opacity: .8;
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}
+#txt3{
+    color:#FFF;
+
+
+
+}
+#txt4{
+    color:#FFF;
+
+
+
+}
+.lg{
+    width:100%; height:100px; top:-123px;
+}
+.txt1{
+    margin-top:5px;
+
+
+}
+#txt{
+    margin-top: 80px;
+    color:#000;
+
+
+}
+
+/*-------------Navigation--------*/
+
+
+
+
+@media all and (max-width:1500px) {
+
+    #bg {
+
+        height: 100%;
+        top:0;
+        bottom: -150px;
+        left: 0;
+        right: 0;
+
+
+    }
+
+}
+
+@media all and (max-width:1200px) {
+
+    #bg {
+
+        height: 200%;
+        top:0;
+        bottom: -150px;
+        left: 0;
+        right: 0;
+
+    }
+
+}
+
+
+@media all and (max-width:400px) {
+    #bg {
+
+        height: 250%;
+        top:0;
+        bottom: -200px;
+        left: 0;
+        right: 0;
+
+    }
+
+}
+@media all and (max-width:320px) {
+    #bg{
+        background:url('../images/bg.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size:cover;
+        font-family:Arial, Helvetica, sans-serif;
+
+        color:#FFF;
+        height: 130%;
+        top:0;
+        bottom: -150px;
+        left: 0;
+        right: 0;
+
+
+
+    }
+
+}
+@media all and (max-width:240px) {
+    #bdy{
+        width:70%;
+        height: 80%;
+
+
+    }
+    #login{
+        width: 95%;
+        top:-223px;
+
+        height:80%;
+    }
+    .lg{
+        width:100%; height:40px; top:-123px;
+    }
+    #txt3{
+        color:#FFF;
+        font-size: 20px;
+
+
+
+    }
+    #txt4{
+        color:#FFF;
+
+
+
+    }
+    .textox {
+
+        height: 25px;
+    }
+    .btn{
+        height: 25px;
+        font-size: 20px;
+        line-height: 1px;
+    }
+    #bg{
+        background:url("../images/bg.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size:cover;
+        font-family:Arial, Helvetica, sans-serif;
+
+        color:#FFF;
+        height: 150%;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+
